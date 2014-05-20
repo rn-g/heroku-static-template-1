@@ -1,4 +1,10 @@
 # Static Site for Heroku
+## What's inside
+* Rack server
+* jQuery 1.11.1
+* CSS: Normalize.css, & bootstrap 3.1.1 (only the grid and
+  responsive stuff)
+* A clean index based on boilerplate
 ## Usage
 * `clone` this repo (`git clone [this-repo-git-url] your-project-name`)
 * `cd your-project-name` 
