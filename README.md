@@ -1,4 +1,4 @@
-# Static Site for Heroku
+# Static Site template for Heroku
 ## What's inside
 * Rack server
 * jQuery 1.11.1
