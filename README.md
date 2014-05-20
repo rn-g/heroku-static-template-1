@@ -6,7 +6,7 @@
   responsive stuff)
 * A clean index based on boilerplate
 ## Usage
-* `clone` this repo (`git clone [this-repo-git-url] your-project-name`)
+* `clone` this repo (`git clone git@github.com:rriveras/heroku-static-template.git your-project-name`)
 * `cd your-project-name` 
 * `bundle`
 * To run locally `rackup`, and open `http://localhost:9292/`
