@@ -7,7 +7,7 @@ r301 %r{.*}, 'https://safestead.net$&'
 
 
 use Rack::Static,
-  :urls => ["/images", "/js", "/css", "/assets"],
+  :urls => ["/images", "/js", "/css"],
   :root => "public"
 
 run lambda { |env|
