@@ -1,3 +1,12 @@
+gem 'rack-rewrite', '~> 1.5.0'
+require 'rack/rewrite'
+
+use Rack::Rewrite do
+r301 %r{.*}, 'https://www.safestead.net$&', :scheme => 'http'
+r301 %r{.*}, 'https://safestead.net$&', :scheme => 'http'
+r301 %r{.*}, 'https://safestead.net$&'
+end
+
 use Rack::Static,
   :urls => ["/images", "/js", "/css", "/assets"],
   :root => "public"
